@@ -1,0 +1,38 @@
+     body {
+            font-family: Arial, sans-serif;
+            background-color: #a795f5;
+        }
+        .container {
+            max-width: 400px;
+            margin: 50px auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            background-color: #efb4e4;
+        }
+        label, input {
+            display: block;
+            width: 100%;
+            margin-bottom: 10px;
+        }
+
+      .submit {
+            padding: 10px 10px;
+         
+            font-size : 10px;
+            border-radius: 20px;
+           
+        }
+
+        .error {
+            color: red;
+            display: none;
+        }
+                   
+        @media (max-width: 600px) {
+    .container {
+        width: 100%;
+        padding: 10px;
+    }
+}
